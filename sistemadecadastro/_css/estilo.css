@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+@charset "utf-8";
+
+body  {
+    background-image: url(../_imagens/img02.jpg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    display: block;
+    border: solid white 1px;
+    border-radius: 30px;
+    font-size: 16pt;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    max-width: 70%;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+div#corpo-form {
+    margin: 150px auto auto auto;
+    padding: 20px;
+}
+
+div#corpo-form-cad {
+    display: block;
+    margin: auto;  
+}
+
+div#corpo-form h1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px auto;
+    border: solid white 1px;
+    border-radius: 20px;  
+    max-width: 75%;
+    width: 370px;
+    margin: 170px auto 20px auto;
+    padding: 10px;;
+}
+
+div#corpo-form-cad h1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px auto;
+    border: solid white 1px;
+    border-radius: 20px;  
+    max-width: 80%;
+    width: 370px;
+    margin: 170px auto 20px auto;
+    padding: 10px;
+}
+
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.btn {
+    background-color: #ff0066;
+    border: none;
+    max-width: 80%;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+::-webkit-input-placeholder {
+    color: white;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: white;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color:white;  
+ }
+
+ .msg-erro{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(250, 128, 114, .3);
+    border: solid rgb(165, 42, 42) 1px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 80%;
+    width: 399px;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+
+div#msg-sucesso{
+    width: 40px;
+    margin: auto;
+    background-color: rgb(50, 205, 50, .3);
+    padding: 10px;
+    border: solid rgb(34, 139, 34) 1px;
+    border-radius: 20px;  
+    max-width: 80%;
+    width: 370px;
+    margin: 10px auto;
+    padding: 10px;
+}
